@@ -18,7 +18,7 @@ CREATE ACCOUNT VALIDATE
 ![ImgName](https://github.com/uendicode/FormValidations-JavaScript/blob/master/formvalidationsJS/contact/images/signup.PNG)
 
 In this script we validate the username, email and password of the user: 
-1. The fields should not be empty.
+1. The fields shouldn't be empty.
 2. The email should be in the appropriate format.
 3. Password should be at least 8 characters long, 1 uppercase letter, 1 lowercase letter and 1 number. 
 4. Two passwords should match with each other.
