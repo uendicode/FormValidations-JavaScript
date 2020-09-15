@@ -1,0 +1,159 @@
+*	{	
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;}
+	
+body	{
+	animation:transitionIn 0.90s;
+	font-family: inherit;
+	line-height:1.4;
+background: white;
+}
+	
+	.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a {
+color: #fff;
+text-decoration: none;
+padding: 5px 20px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.container	{
+	max-width:1100px;
+	margin:auto;
+	}
+	
+.menu h1{
+	 color: #FFF;
+   margin-top: 0px;
+ font-size: 33px;
+ font-weight: 700;
+ text-align: left;
+	
+}
+	
+	
+.menu 	{
+	position: -webkit-sticky;
+padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+ background-color: #1a0417;
+	} 
+
+
+
+#cal {padding:50px 0;}
+#cal h2{ 
+	font-family: Verdana;
+font-size:27px;
+	 text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+ 
+}
+
+#cal p.lead { margin-bottom:1rem;}
+#cal .cal-content{ display:flex;}
+#cal .cal-text,
+#cal .cal-image{flex:1;} 
+
+#cal .cal-image img{ 
+	display:block;
+	margin-left:30px;
+	width:115%;
+	margin-top:30px;
+	}
+  
+  .box-3 {
+  flex: 1;
+}
+
+
+
+
+
+label, input {
+  margin-bottom: 10px
+}
+
+.container.input_field{
+  margin-bottom: 10px;
+}
+
+.container .input_field input[type="text"],
+.container textarea{
+	 background: #fff;
+  border: 1px solid #bdbbbb;
+  width: 500px;
+  padding: 10px;
+}
+.container .input_field2 input[type="text"],
+.container textarea{
+  border: 1px solid #bdbbbb;
+  padding: 10px;
+  
+}
+
+.container textarea{
+  resize: none;
+  height: 120px;
+}
+
+
+.container .btn input[type="submit"]{
+  border: none;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  float:right;
+  background:#6e1b3f;
+  color: white;
+  text-transform: uppercase;
+   font-size: 16px;
+  border-radius: 4px;
+  border: 2px solid #6e1b3f;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 5px;
+  background: #fae98c;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.10s ease;
+}
+
+@keyframes transitionIn{
+	
+	from {
+		opacity:1;
+		transform:translateY(-15px);
+	}
+	to {
+		
+		opacity:1;
+		transform:translateY(0);
+	}
+}

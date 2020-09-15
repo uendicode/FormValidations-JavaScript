@@ -1,0 +1,172 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+}
+
+header {
+ padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 76px;
+  padding-left: 70px;
+ background-color: #1f0621;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+	
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a {
+color: #fff;
+text-decoration: none;
+padding: 5px 20px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+h1 {
+ color: #FFF;
+   margin-top: 0px;
+ font-size: 33px;
+ font-weight: 700;
+ text-align: left;
+}
+
+ h2{
+	font-size:20px;
+	 text-align: center;
+	  margin-top: 20px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+	
+}
+.container {
+	 position: absolute;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%,-50%);
+	background-color: #fff;
+	 position: c;
+	 left:50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	width: 400px;
+	max-width: 100%;
+}
+
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	 border: 1px solid #bdbbbb;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #6e1b3f;
+	border: 2px solid #6e1b3f;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+label {
+   margin-bottom: 5px;
+   color: #676767;
+   font-size: 14px;
+  }
+  
+  @keyframes transitionIn{
+	
+	from {
+		opacity:1;
+		transform:rotateX(-10deg);
+	}
+	to {
+		
+		opacity:1;
+		transform:rotateX(0);
+	}
+}
+
+
+
